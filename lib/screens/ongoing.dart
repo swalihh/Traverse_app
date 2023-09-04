@@ -173,7 +173,7 @@ class _OngoingState extends State<Ongoing> {
                                           },
                                           icon: Icon(
                                             Icons.delete_outline,
-                                            color: Colors.red,
+                                            color: const Color.fromARGB(255, 247, 65, 52),
                                           )),
                                     );
                                   },
