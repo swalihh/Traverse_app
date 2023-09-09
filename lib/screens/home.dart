@@ -12,7 +12,7 @@ class home extends StatefulWidget {
     super.key,
     required this.userInfo,
   });
-  Map<String, dynamic> userInfo;
+ final Map<String, dynamic> userInfo;
 //Map<String, dynamic> tripData;
   @override
   State<home> createState() => _homeState();
@@ -27,7 +27,7 @@ class _homeState extends State<home> {
   @override
   Widget build(BuildContext context) {
     double deviceheight = MediaQuery.sizeOf(context).height;
-     double devicewidth = MediaQuery.sizeOf(context).width;
+    // double devicewidth = MediaQuery.sizeOf(context).width;
 
     return Scaffold(
       key: Scaffoldkey,
